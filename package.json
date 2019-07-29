@@ -4,12 +4,22 @@
   "description": "npm test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:bateGit/loadertest.git"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
   "author": "bate",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  }
 }
