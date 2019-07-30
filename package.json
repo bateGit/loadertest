@@ -2,7 +2,7 @@
   "name": "bate-npm-test",
   "version": "1.0.1",
   "description": "npm test",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "commit": "git-cz"
   },
@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
     }
   }
 }
