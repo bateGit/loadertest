@@ -43,6 +43,16 @@ module.exports = {
     }
   ],
 
+  messages: {
+    type: "请选择您要提交的更改类型：",
+    customScope: "提交内容的影响范围（可选）",
+    subject: "提交内容的简短描述",
+    body: "提交内容的详细描述，使用“|” 换行\n",
+    breaking: "列出可能存在的突发变化（可选）：\ n",
+    footer: "列出此更改所关闭的任何问题（可选）",
+    confirmCommit: "您确定要继续上面的提交吗？"
+  },
+
   scopes: [],
 
   allowCustomScopes: true,
